@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #252525;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+ h1 {
+     padding: 50px;
+ }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto auto;
+    gap: 10px;
+}
